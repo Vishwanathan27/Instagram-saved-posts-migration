@@ -23,7 +23,7 @@ def write_json(data, filename):
     json.dump(data, outfile)
 
 array_ = []
-collection_ids = [17971694668885298]
+collection_ids = [] #your collection id here , if needed.
 # filtered_list = [item for item in data if item['is_private']]
 count = 654
 filtered_list_first_100 = data[count:800]
